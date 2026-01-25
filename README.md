@@ -27,6 +27,6 @@ All art and code is made by me, YuuWorks!
 Special thanks to these following mods as bits of the code is based on them! Such as...
 - 0 ERROR ([Wiki Page](https://balatromods.miraheze.org/wiki/0_ERROR))
 - Sodanuki's Joker Pack ([FA Post](https://www.furaffinity.net/view/62707202/))
-- Cryptid ([Github Page](https://github.com/SpectralPack/Cryptid))
+- Cryptid ([Wiki Page](https://balatromods.miraheze.org/wiki/Cryptid)| [Github Page](https://github.com/SpectralPack/Cryptid))
 
 Alongside a special thanks to the official Balatro Discord because i realized a lot of my issues were already solved over there and i just needed to deal with Discord's search feature to find them </3
