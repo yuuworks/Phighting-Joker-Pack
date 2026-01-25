@@ -1,0 +1,12 @@
+{
+	"id": "PHIGHT",
+	"name": "Phoolish Phighting Pack",
+	"version": "1.0.0",
+	"author": ["YuuWorks"],
+	"badge_colour": "DFDFDF",
+	"badge_text_colour": "1C1C1C",
+	"display_name": "Phighting!",
+	"description": "A Joker Pack full of *Phun* Jokers themed after the Roblox game PHIGHTING!",
+	"prefix": "phighting",
+	"main_file": "phighting_jokers.lua"
+}
