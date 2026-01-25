@@ -6,9 +6,10 @@
 -- mods work is just from reading how other mods are written lol
 
 -- - Sodanuki Joker Pack
--- - Balatro Jokers Plus
 -- - 0 ERROR
 -- - Cryptid (slightly)
+
+-- they are also credited in the github page mwehehe
 
 -- also a huge thanks to the VanillaRemade wiki mhehehe
 
@@ -642,7 +643,7 @@ SMODS.Joker{
                         end
 
                         -- get the suit
-                        local s = c:get_suit(context)
+                        local s = c.base.suit
 
                         -- if we haven't seen this suit in this group yet...
                         if not suits_found[s] then
