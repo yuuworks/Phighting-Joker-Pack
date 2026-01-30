@@ -129,7 +129,12 @@ local function to_num(val)
     if type(val) == 'table' then
         return val:to_number()
     end
-    return val
+
+    if type(val) == 'string' then
+        return tonumber(val) or 0
+    end
+
+    return val or 0
 end
 
 
@@ -208,7 +213,7 @@ SMODS.Joker{
             end
 
             -- JUDGEMENTTTTT
-            for i, target_card in ipairs(cards_to_destroy) do
+            for _, target_card in ipairs(cards_to_destroy) do
 
                 -- Add an event to the game's animation queue
                 G.E_MANAGER:add_event(Event({
@@ -1145,19 +1150,13 @@ SMODS.Joker{
             local active = roger()
             local rate = active and 2.5 or 1.5
 
-            -- there's no vanilla Xchip so it has to be manual
-            -- get current chips (to_num for Talisman compat)
-            local current_chips = to_num(G.GAME.current_round.current_hand.chips)
-
-            local extra_chips = (current_chips * rate) - current_chips
-
             -- round down for decimals
             extra_chips = math.floor(extra_chips)
 
             return {
                 message = "X" .. rate,
-                Xmult_mod = rate,
-                chip_mod = extra_chips,
+                xmult = rate,
+                xchips = rate,
                 colour = G.C.PURPLE,
                 card = card
             }
