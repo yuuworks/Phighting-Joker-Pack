@@ -2,7 +2,7 @@
 A *phun* Balatro mod themed around **PHIGHTING!**.
 
 > #### IMPORTANT NOTE!
-> This mod requires [Steamodded](https://github.com/Steamodded/smods/releases/latest) to be set-up properly!
+> This mod requires [Steamodded](https://github.com/Steamodded/smods) to be set-up properly!
 >
 > Please take the time to go through the installation guide on Steamodded's github page!
 
