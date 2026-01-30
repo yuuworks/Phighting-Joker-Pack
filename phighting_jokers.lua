@@ -1150,9 +1150,6 @@ SMODS.Joker{
             local active = roger()
             local rate = active and 2.5 or 1.5
 
-            -- round down for decimals
-            extra_chips = math.floor(extra_chips)
-
             return {
                 message = "X" .. rate,
                 xmult = rate,
